@@ -70,3 +70,8 @@ h1{
     text-shadow: 2px 2px 10px black;
 
 }
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
