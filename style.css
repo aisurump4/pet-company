@@ -26,10 +26,11 @@ background-size: cover;}
 .header .header-logo{
     text-align: center;
     order: 1;
+    color: aqua;
 }
 
 span{
-    color: aqua;
+    color: red;
 }
 
 nav{
