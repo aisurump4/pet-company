@@ -29,10 +29,25 @@ background-size: cover;}
 .header .header-logo{
     text-align: center;
     order: 1;
+    color: aqua;
+}
+
+.header .header-address{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.header .header-no{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 span{
-    color: aqua;
+    color: red;
 }
 
 nav{
@@ -64,6 +79,8 @@ h2{
 
 p{
     text-align: center;
+    background-color: white;
+    border: 5px solid red;
 }
 
 h1{
