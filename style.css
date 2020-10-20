@@ -29,6 +29,20 @@ background-size: cover;}
     color: aqua;
 }
 
+.header .header-address{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.header .header-no{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
 span{
     color: red;
 }
@@ -62,6 +76,8 @@ h2{
 
 p{
     text-align: center;
+    background-color: white;
+    border: 5px solid red;
 }
 
 h1{
