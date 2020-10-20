@@ -32,6 +32,12 @@ background-size: cover;}
     color: aqua;
 }
 
+.header .header-name{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .header .header-address{
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
