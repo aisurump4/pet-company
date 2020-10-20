@@ -62,3 +62,11 @@ h2{
 p{
     text-align: center;
 }
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+
+}
