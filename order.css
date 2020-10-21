@@ -84,12 +84,6 @@ h2{
     margin-top: 100px;
 }
 
-.about{
-    text-align: center;
-    background-color: white;
-    border: 5px solid red;
-}
-
 h1{
     font-size: 4rem;
     text-align: center;
@@ -98,7 +92,7 @@ h1{
 
 }
 
-body {
+body{
     width: 70%;
     margin: 0 auto;
 }
@@ -113,6 +107,7 @@ nav a{
     
 }
 
+
 .footer .services{
     text-align: center;
 
@@ -121,4 +116,3 @@ nav a{
 .footer .copyright{
     text-align: center;
 }
-
