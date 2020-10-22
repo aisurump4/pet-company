@@ -57,7 +57,7 @@ span{
 }
 
 nav{
-    background-color: gray;
+    background-color: rgb(145, 132, 132);
     height: 50px;
     display: flex;
     margin-bottom: 10px;
@@ -86,7 +86,7 @@ h2{
 
 .about{
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.397);
     border: 5px solid red;
 }
 
@@ -121,4 +121,23 @@ nav a{
 .footer .copyright{
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+.order-box{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+}
+>>>>>>> 5ef6db6ba3976a73fc713659f3f3fecca194d572
