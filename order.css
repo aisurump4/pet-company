@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 :root{
     --color-text: black;
     --border: 4px solid var(--color-text)
 }
-html, body{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     color: var(--color-text);
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -96,7 +92,7 @@ h1{
 body{
     width: 70%;
     margin: 0 auto;
-}
+} 
 
 nav a{
     display: inline-block;
@@ -116,143 +112,5 @@ nav a{
 
 .footer .copyright{
     text-align: center;
-=======
-
-html{
-    
 }
 
-html, body {
-    margin: 0;
-    height: 100%;
-    
-}
-
-body{
-    display: flex;
-    align-items: center;
-    background-image: url("background.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.sign{
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    max-width: 440px;
-    width: calc(100% - 40px);
-    padding: 44px;
-    margin-bottom: 28px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    min-width: 320px;
-    min-height: 338px;
-    overflow: hidden;
-    
-}
-
-.login{
-    padding: 4px 8px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(0,0,0,0.4);
-    background-color: rgba(255,255,255,0.4);
-    height: 32px;
-    height: 2rem;
-    padding: 6px 10px;
-    border-width: 1px;
-    border-color: #666;
-    border-color: rgba(0,0,0,0.6);
-    height: 36px;
-    outline: none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    background-color: transparent;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    padding-left: 0;
-    direction: ltr;
-    text-align: left;
-    max-width: 100%;
-    line-height: inherit;
-    font-size: inherit
-}
-
-h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 1.25rem;
-    margin-top: 1.25rem;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 300;
-    line-height: 1.75rem;
-    padding-bottom: 2.3632px;
-    padding-top: 2.3632px;
-    color: #1b1b1b;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 0;
-    margin-top: 16px;
-    margin-bottom: 12px;
-    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
-}
-
-img{
-    max-width: 400px;
-    max-height: 50px;
-    padding: 5px;
-}
-
-.login::placeholder{
-    font-size: 1.1rem;
-}
-
-.sign, .login{
-    width: 100%;
-}
-
-.button{
-    color: #fff;
-    border-color: #0067b8;
-    background-color: #0067b8;
-    display: block;
-    min-width: 108px;
-    min-height: 32px;
-    justify-content: right;
-    font-size: 15px;
-    margin: auto 0 0 auto
-    
-    
-}
-
-
-
-.btn{
-    margin-top: 30px;
-}
-
-.label{
-    background-color: #346bb4;
-}
-
-.tot{
-    border: none;
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-form p{
-    font-size: 1.1rem;
-    display: inline;
-}
-
-.check{
-    margin: 10px;
->>>>>>> 5ef6db6ba3976a73fc713659f3f3fecca194d572
-}
