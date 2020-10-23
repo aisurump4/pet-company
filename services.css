@@ -126,3 +126,8 @@ p{
     border: 3px solid black;
     background-color: white;
 }
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+}
