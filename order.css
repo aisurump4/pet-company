@@ -7,130 +7,113 @@ html, body {
 }
 
 body{
+    color: var(--color-text);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: black;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    margin:0 auto;
+    max-width: 85rem;
+}
+
+.header .header-logo{
+    text-align: center;
+    order: 1;
+    color: aqua;
+}
+
+.header .header-name{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header .header-address{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.header .header-no{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+span{
+    color: red;
+}
+
+nav{
+    background-color: gray;
+    height: 50px;
     display: flex;
-    align-items: center;
-    background-image: url("background.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    margin-bottom: 10px;
+    border: 5px solid black;
 }
 
-.sign{
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    max-width: 440px;
-    width: calc(100% - 40px);
-    padding: 44px;
-    margin-bottom: 28px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    min-width: 320px;
-    min-height: 338px;
-    overflow: hidden;
-    
-}
-
-.login{
-    padding: 4px 8px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(0,0,0,0.4);
-    background-color: rgba(255,255,255,0.4);
-    height: 32px;
-    height: 2rem;
-    padding: 6px 10px;
-    border-width: 1px;
-    border-color: #666;
-    border-color: rgba(0,0,0,0.6);
-    height: 36px;
-    outline: none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    background-color: transparent;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    padding-left: 0;
-    direction: ltr;
-    text-align: left;
-    max-width: 100%;
-    line-height: inherit;
-    font-size: inherit
-}
-
-h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 1.25rem;
-    margin-top: 1.25rem;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 300;
-    line-height: 1.75rem;
-    padding-bottom: 2.3632px;
-    padding-top: 2.3632px;
-    color: #1b1b1b;
-    font-size: 1.5rem;
-    font-weight: 600;
+nav ul{
+    list-style-type: none;
     padding: 0;
-    margin-top: 16px;
-    margin-bottom: 12px;
-    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
-}
+    flex: 2;
+    display: flex;
+} 
 
-img{
-    max-width: 400px;
-    max-height: 50px;
-    padding: 5px;
-}
-
-.login::placeholder{
-    font-size: 1.1rem;
-}
-
-.sign, .login{
-    width: 100%;
-}
-
-.button{
-    color: #fff;
-    border-color: #0067b8;
-    background-color: #0067b8;
-    display: block;
-    min-width: 108px;
-    min-height: 32px;
-    justify-content: right;
-    font-size: 15px;
-    margin: auto 0 0 auto
-    
-    
-}
-
-
-
-.btn{
-    margin-top: 30px;
-}
-
-.label{
-    background-color: #346bb4;
-}
-
-.tot{
-    border: none;
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-form p{
-    font-size: 1.1rem;
+nav li{
     display: inline;
+    text-align: center;
+    flex: 1;
+    color: aqua;
 }
 
-.check{
-    margin: 10px;
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+} 
+
+nav a{
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    
+}
+
+
+.footer .services{
+    text-align: center;
+
+}
+
+.footer .copyright{
+    text-align: center;
 }
 
