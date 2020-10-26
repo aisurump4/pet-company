@@ -225,3 +225,30 @@ article, .image{
     display: flex;
     justify-content: space-evenly;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2,auto);
+    
+    background-color: wheat;
+    gap: 2px;
+    width: 100%;
+}
+
+.cell-a {
+    
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+.cell-b{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.cell-c{
+    grid-column: 3/4;
+}
